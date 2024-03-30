@@ -1,0 +1,192 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raretech Exam</title>
+    <link rel="shortcut icon" href="img/rare.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        .styping {
+            color: #fff;
+            background: #007bff;
+        }
+
+        .detailscontainer {
+            background-color: white;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: fit-content;
+            padding: 2px;
+            flex-wrap: wrap;
+            border: 2px solid blue;
+            text-align: center;
+        }
+
+        .detailscontainer img {
+            background-color: white;
+            padding-right: 10px;
+            border-right: 1px solid grey;
+            margin-right: 10px;
+        }
+
+        .details {
+            border-bottom: 1px solid blue;
+            padding: 3px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            width: 100%;
+        }
+
+        .title .logo img {
+            position: absolute;
+            right: 4px;
+            top: 4px;
+            height: 30px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- start Quiz button -->
+    <marquee direction="Left"><img src="img/rare.png" height="40" alt=""> Raretech Institute Of Information Technology
+    </marquee>
+
+    <div class="start_btn">
+        <div class="detailscontainer">
+            <img src="img/rare.png" height="80" alt="">
+            <div class="text">
+                <h4>Raretech Institute Of Information Technology</h4>
+                <h4>An ISO 9001:2015 verified Institute</h4>
+            </div>
+        </div><button>Start Exam</button>
+    </div>
+    <!-- Login Form -->
+    <div id="loginForm" style="display: none;">
+        <div class="details">
+            <img src="img/rare.png" height="30" alt="">
+            <div class="text">
+                <h6>Raretech Institute Of Information Technology</h6>
+                <h6>An ISO 9001:2015 verified Institute</h6>
+            </div>
+        </div>
+        <h2>Exam Login</h2>
+        <hr>
+        <form id="userLogin">
+            <input type="text" id="username" class="input" placeholder="Username"><br>
+            <input type="password" id="password" class="input" placeholder="Password"><br>
+            <button type="button" onclick="login()">Exam Login</button>
+        </form>
+    </div>
+    <!-- info box for typing -->
+    <div class="info_box" id="typingInfo">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>1 Hour</span> for your exam.</div>
+            <div class="info">2. There will be a typing test first.</div>
+            <div class="info">3. You have to type the correct words Shown in the paragraph.</div>
+            <div class="info">4. The correct words will be green.</div>
+            <div class="info">5. the wrong typed word will be red.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="styping">Continue</button>
+        </div>
+
+    </div>
+    <!-- typing code -->
+
+    <div class="wrapper" style="display: none;">
+        <div class="content-box">
+            <div class="typing-text">
+                <p></p>
+            </div>
+            <div class="content">
+                <ul class="result-details">
+                    <li class="time">
+                        <p>Time Left:</p>
+                        <span><b>60</b>s</span>
+                    </li>
+                    <li class="wpm">
+                        <p>WPM:</p>
+                        <span>0</span>
+                    </li>
+                </ul>
+                <button id="stexam" class="restart" style="display: none;" >Next</button>
+            </div>
+        </div>
+        <textarea name="input-field" placeholder="Click here to type..." class="input-field"></textarea>
+    </div>
+
+    <!-- typing code end -->
+
+    <!-- Quiz Box -->
+    <div class="timer" style="display: none;">
+        <div class="time_left_txt">Time Left</div>
+        <div class="timer_sec">01:00</div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">Raretech Exam <div class="logo"><img src="img/rare.png" alt=""></div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Exam!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart" style="display: none;">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/paragraph.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+</body>
+
+</html>
