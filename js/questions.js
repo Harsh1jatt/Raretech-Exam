@@ -51,288 +51,288 @@ let questions = [
       "Shapes"
     ]
   },
-  // {
-  //   question: "Which file format is the default for saving documents in Microsoft Word?",
-  //   answer: "DOCX",
-  //   options: [
-  //     "DOCX",
-  //     "PDF",
-  //     "RTF",
-  //     "TXT"
-  //   ]
-  // },
-  // {
-  //   question: "To remove all formatting from a selected text in Word, which keyboard shortcut is used?",
-  //   answer: "Ctrl+Shift+N",
-  //   options: [
-  //     "Ctrl+Space",
-  //     "Ctrl+Shift+Z",
-  //     "Ctrl+Spacebar",
-  //     "Ctrl+Shift+N"
-  //   ]
-  // },
-  // {
-  //   question: "To remove all formatting from a selected text in Word, which keyboard shortcut is used?",
-  //   answer: "Ctrl+Shift+N",
-  //   options: [
-  //     "Ctrl+Space",
-  //     "Ctrl+Shift+Z",
-  //     "Ctrl+Spacebar",
-  //     "Ctrl+Shift+N"
-  //   ]
-  // },
-  // {
-  //   question: "Which tab in Word contains the commands for adding charts and tables to a document?",
-  //   answer: "Insert",
-  //   options: [
-  //     "Page Layout",
-  //     "Insert",
-  //     "Home",
-  //     "Review"
-  //   ]
-  // },
-  // {
-  //   question: "In Microsoft Word, what does the acronym 'BCC' stand for when referring to email options?",
-  //   answer: "Blind Carbon Copy",
-  //   options: [
-  //     "Blind Carbon Copy",
-  //     "Background Color Control",
-  //     "Bold, Center, Copy",
-  //     "Basic Character Control"
-  //   ]
-  // },
-  // {
-  //   question: "What is the maximum number of columns you can insert into a table in Microsoft Word 2019?",
-  //   answer: "256",
-  //   options: [
-  //     "63",
-  //     "256",
-  //     "32",
-  //     "100"
-  //   ]
-  // },
-  // {
-  //   question: "Which feature in Microsoft Word helps you quickly replicate the formatting of one object onto another?",
-  //   answer: "Format Painter",
-  //   options: [
-  //     "Paint Format",
-  //     "Format Painter",
-  //     "Style Painter",
-  //     "Copy Format"
-  //   ]
-  // },
-  // {
-  //   question: "Which of the following is NOT a valid file extension for saving a Word document?",
-  //   answer: ".wrk",
-  //   options: [
-  //     ".docx",
-  //     ".dot",
-  //     ".wrk",
-  //     ".docm"
-  //   ]
-  // },
-  // {
-  //   question: `What does the "Mail Merge" feature in Word allow you to do?`,
-  //   answer: "Merge and print personalized documents",
-  //   options: [
-  //     "Send emails directly from Word",
-  //     "Merge and print personalized documents",
-  //     "Share documents via cloud storage",
-  //     "Create hyperlinks within a document"
-  //   ]
-  // },
-  // {
-  //   question: `In Word, what is the purpose of the "Find and Replace" feature?`,
-  //   answer: "To search for specific words or phrases and replace them with another",
-  //   options: [
-  //     "To search for and format text",
-  //     "To locate and insert clip art",
-  //     "To search for specific words or phrases and replace them with another",
-  //     "To spell-check a document"
-  //   ]
-  // },
-  // {
-  //   question: `Which tab in Word allows you to create and modify tables and charts?`,
-  //   answer: "Insert",
-  //   options: [
-  //     "Insert",
-  //     "Layout",
-  //     "Home",
-  //     "References"
-  //   ]
-  // },
-  // {
-  //   question: `What is the maximum number of headers or footers you can have in a Word document?`,
-  //   answer: "unlimited",
-  //   options: [
-  //     "1",
-  //     "2",
-  //     "3",
-  //     "unlimited"
-  //   ]
-  // },
-  // {
-  //   question: `Which keyboard shortcut is used to split a table in Microsoft Word?`,
-  //   answer: "Ctrl+Shift+T",
-  //   options: [
-  //     "Ctrl+Shift+Enter",
-  //     "Alt+Shift+S",
-  //     "Ctrl+Shift+T",
-  //     "Ctrl+Alt+X"
-  //   ]
-  // },
-  // {
-  //   question: `What is the purpose of the "Thesaurus" feature in Microsoft Word?`,
-  //   answer: "To provide synonyms and antonyms for selected words",
-  //   options: [
-  //     "To check for document plagiarism",
-  //     "To translate text to other languages",
-  //     "To provide synonyms and antonyms for selected words",
-  //     "To create a table of contents"
-  //   ]
-  // },
-  // {
-  //   question: `In Word, which view allows you to see how your document will look when it's published on the web?`,
-  //   answer: "Web Layout View",
-  //   options: [
-  //     "Web Layout View",
-  //     "Print Layout View",
-  //     "Draft View",
-  //     "Outline View"
-  //   ]
-  // },
-  // {
-  //   question: `What is the maximum number of recent documents displayed in the "Recent" section of the Word Start screen by default?`,
-  //   answer: "15",
-  //   options: [
-  //     "10",
-  //     "15",
-  //     "20",
-  //     "25"
-  //   ]
-  // },
-  // {
-  //   question: `In Word, which option is used to create a clickable link to an external website or email address?`,
-  //   answer: "Hyperlink",
-  //   options: [
-  //     "Hyperlink",
-  //     "Bookmark",
-  //     "Cross-reference",
-  //     "Anchor"
-  //   ]
-  // },
-  // {
-  //   question: `How can you insert a non-breaking space between words in a Word document?`,
-  //   answer: "Ctrl+Shift+Space",
-  //   options: [
-  //     "Ctrl+Space",
-  //     "Ctrl+Shift+Space",
-  //     "Alt+Space",
-  //     "Shift+Space"
-  //   ]
-  // },
-  // {
-  //   question: `What is the keyboard shortcut to quickly switch between open documents in Microsoft Word?`,
-  //   answer: "Ctrl+Tab",
-  //   options: [
-  //     "Ctrl+Tab",
-  //     "Alt+Tab",
-  //     "Ctrl+Page Up",
-  //     "Ctrl+Shift+T"
-  //   ]
-  // },
-  // {
-  //   question: `Which keyboard shortcut is used to select the entire document in Microsoft Word?`,
-  //   answer: "Ctrl+A",
-  //   options: [
-  //     "Ctrl+A",
-  //     "Ctrl+E",
-  //     "Ctrl+D",
-  //     "Ctrl+Z"
-  //   ]
-  // },
-  // {
-  //   question: `What is the shortcut key for creating a new document in Microsoft Word?`,
-  //   answer: "Ctrl+N",
-  //   options: [
-  //     "Ctrl+N",
-  //     "Ctrl+O",
-  //     "Ctrl+S",
-  //     "Ctrl+P"
-  //   ]
-  // },
-  // {
-  //   question: `Which shortcut key is used to undo the last action in Word?`,
-  //   answer: "Ctrl+Z",
-  //   options: [
-  //     "Ctrl+U",
-  //     "Ctrl+Z",
-  //     "Ctrl+Y",
-  //     "Ctrl+X"
-  //   ]
-  // },
-  // {
-  //   question: `To open the "Find and Replace" dialog box in Word, you can use which keyboard shortcut?`,
-  //   answer: "Ctrl+F",
-  //   options: [
-  //     "Ctrl+F",
-  //     "Ctrl+R",
-  //     "Ctrl+H",
-  //     "Ctrl+G"
-  //   ]
-  // },
-  // {
-  //   question: `What is the shortcut key to insert a new page break in a Word document?`,
-  //   answer: "Ctrl+Enter",
-  //   options: [
-  //     "Ctrl+Shift+Enter",
-  //     "Ctrl+P",
-  //     "Ctrl+Enter",
-  //     "Ctrl+J"
-  //   ]
-  // },
-  // {
-  //   question: `Which keyboard shortcut allows you to cut selected text or objects in Word?`,
-  //   answer: "Ctrl+X",
-  //   options: [
-  //     "Ctrl+X",
-  //     "Ctrl+C",
-  //     "Ctrl+V",
-  //     "Ctrl+Z"
-  //   ]
-  // },
-  // {
-  //   question: `What is the shortcut key to apply or remove bold formatting to selected text in Word?`,
-  //   answer: "Ctrl+B",
-  //   options: [
-  //     "Ctrl+I",
-  //     "Ctrl+U",
-  //     "Ctrl+B",
-  //     "Ctrl+L"
-  //   ]
-  // },
-  // {
-  //   question: `Which keyboard shortcut is used to align selected text or objects to the right in Microsoft Word?`,
-  //   answer: "Ctrl+R",
-  //   options: [
-  //     "Ctrl+Shift+R",
-  //     "Ctrl+R",
-  //     "Ctrl+T",
-  //     "Ctrl+Shift+T"
-  //   ]
-  // },
-  // {
-  //   question: `To close the active document in Word, what is the keyboard shortcut?`,
-  //   answer: "Ctrl+W",
-  //   options: [
-  //     "Ctrl+F4",
-  //     "Alt+F4",
-  //     "Alt+W",
-  //     "Ctrl+W"
-  //   ]
-  // },
+   {
+     question: "Which file format is the default for saving documents in Microsoft Word?",
+     answer: "DOCX",
+     options: [
+       "DOCX",
+       "PDF",
+       "RTF",
+       "TXT"
+     ]
+   },
+   {
+     question: "To remove all formatting from a selected text in Word, which keyboard shortcut is used?",
+     answer: "Ctrl+Shift+N",
+     options: [
+       "Ctrl+Space",
+       "Ctrl+Shift+Z",
+       "Ctrl+Spacebar",
+       "Ctrl+Shift+N"
+     ]
+   },
+   {
+     question: "To remove all formatting from a selected text in Word, which keyboard shortcut is used?",
+     answer: "Ctrl+Shift+N",
+     options: [
+       "Ctrl+Space",
+       "Ctrl+Shift+Z",
+       "Ctrl+Spacebar",
+       "Ctrl+Shift+N"
+     ]
+   },
+   {
+     question: "Which tab in Word contains the commands for adding charts and tables to a document?",
+     answer: "Insert",
+     options: [
+       "Page Layout",
+       "Insert",
+       "Home",
+       "Review"
+     ]
+   },
+   {
+     question: "In Microsoft Word, what does the acronym 'BCC' stand for when referring to email options?",
+     answer: "Blind Carbon Copy",
+     options: [
+       "Blind Carbon Copy",
+       "Background Color Control",
+       "Bold, Center, Copy",
+       "Basic Character Control"
+     ]
+   },
+   {
+     question: "What is the maximum number of columns you can insert into a table in Microsoft Word 2019?",
+     answer: "256",
+     options: [
+       "63",
+       "256",
+       "32",
+       "100"
+     ]
+   },
+   {
+     question: "Which feature in Microsoft Word helps you quickly replicate the formatting of one object onto another?",
+     answer: "Format Painter",
+     options: [
+       "Paint Format",
+       "Format Painter",
+       "Style Painter",
+       "Copy Format"
+     ]
+   },
+   {
+     question: "Which of the following is NOT a valid file extension for saving a Word document?",
+     answer: ".wrk",
+     options: [
+       ".docx",
+       ".dot",
+       ".wrk",
+       ".docm"
+     ]
+   },
+   {
+     question: `What does the "Mail Merge" feature in Word allow you to do?`,
+     answer: "Merge and print personalized documents",
+     options: [
+       "Send emails directly from Word",
+       "Merge and print personalized documents",
+       "Share documents via cloud storage",
+       "Create hyperlinks within a document"
+     ]
+   },
+   {
+     question: `In Word, what is the purpose of the "Find and Replace" feature?`,
+     answer: "To search for specific words or phrases and replace them with another",
+     options: [
+       "To search for and format text",
+       "To locate and insert clip art",
+       "To search for specific words or phrases and replace them with another",
+       "To spell-check a document"
+     ]
+   },
+   {
+     question: `Which tab in Word allows you to create and modify tables and charts?`,
+     answer: "Insert",
+     options: [
+       "Insert",
+       "Layout",
+       "Home",
+       "References"
+     ]
+   },
+   {
+     question: `What is the maximum number of headers or footers you can have in a Word document?`,
+     answer: "unlimited",
+     options: [
+       "1",
+       "2",
+       "3",
+       "unlimited"
+     ]
+   },
+   {
+     question: `Which keyboard shortcut is used to split a table in Microsoft Word?`,
+     answer: "Ctrl+Shift+T",
+     options: [
+       "Ctrl+Shift+Enter",
+       "Alt+Shift+S",
+       "Ctrl+Shift+T",
+       "Ctrl+Alt+X"
+     ]
+   },
+   {
+     question: `What is the purpose of the "Thesaurus" feature in Microsoft Word?`,
+     answer: "To provide synonyms and antonyms for selected words",
+     options: [
+       "To check for document plagiarism",
+       "To translate text to other languages",
+       "To provide synonyms and antonyms for selected words",
+       "To create a table of contents"
+     ]
+   },
+   {
+     question: `In Word, which view allows you to see how your document will look when it's published on the web?`,
+     answer: "Web Layout View",
+     options: [
+       "Web Layout View",
+       "Print Layout View",
+       "Draft View",
+       "Outline View"
+     ]
+   },
+   {
+     question: `What is the maximum number of recent documents displayed in the "Recent" section of the Word Start screen by default?`,
+     answer: "15",
+     options: [
+       "10",
+       "15",
+       "20",
+       "25"
+     ]
+   },
+   {
+     question: `In Word, which option is used to create a clickable link to an external website or email address?`,
+     answer: "Hyperlink",
+     options: [
+       "Hyperlink",
+       "Bookmark",
+       "Cross-reference",
+       "Anchor"
+     ]
+   },
+   {
+     question: `How can you insert a non-breaking space between words in a Word document?`,
+     answer: "Ctrl+Shift+Space",
+     options: [
+       "Ctrl+Space",
+       "Ctrl+Shift+Space",
+       "Alt+Space",
+       "Shift+Space"
+     ]
+   },
+   {
+     question: `What is the keyboard shortcut to quickly switch between open documents in Microsoft Word?`,
+     answer: "Ctrl+Tab",
+     options: [
+       "Ctrl+Tab",
+       "Alt+Tab",
+       "Ctrl+Page Up",
+       "Ctrl+Shift+T"
+     ]
+   },
+   {
+     question: `Which keyboard shortcut is used to select the entire document in Microsoft Word?`,
+     answer: "Ctrl+A",
+     options: [
+       "Ctrl+A",
+       "Ctrl+E",
+       "Ctrl+D",
+       "Ctrl+Z"
+     ]
+   },
+   {
+     question: `What is the shortcut key for creating a new document in Microsoft Word?`,
+     answer: "Ctrl+N",
+     options: [
+       "Ctrl+N",
+       "Ctrl+O",
+       "Ctrl+S",
+       "Ctrl+P"
+     ]
+   },
+   {
+     question: `Which shortcut key is used to undo the last action in Word?`,
+     answer: "Ctrl+Z",
+     options: [
+       "Ctrl+U",
+       "Ctrl+Z",
+       "Ctrl+Y",
+       "Ctrl+X"
+     ]
+   },
+   {
+     question: `To open the "Find and Replace" dialog box in Word, you can use which keyboard shortcut?`,
+     answer: "Ctrl+F",
+     options: [
+       "Ctrl+F",
+       "Ctrl+R",
+       "Ctrl+H",
+       "Ctrl+G"
+     ]
+   },
+   {
+     question: `What is the shortcut key to insert a new page break in a Word document?`,
+     answer: "Ctrl+Enter",
+     options: [
+       "Ctrl+Shift+Enter",
+       "Ctrl+P",
+       "Ctrl+Enter",
+       "Ctrl+J"
+     ]
+   },
+   {
+     question: `Which keyboard shortcut allows you to cut selected text or objects in Word?`,
+     answer: "Ctrl+X",
+     options: [
+       "Ctrl+X",
+       "Ctrl+C",
+       "Ctrl+V",
+       "Ctrl+Z"
+     ]
+   },
+   {
+     question: `What is the shortcut key to apply or remove bold formatting to selected text in Word?`,
+     answer: "Ctrl+B",
+     options: [
+       "Ctrl+I",
+       "Ctrl+U",
+       "Ctrl+B",
+       "Ctrl+L"
+     ]
+   },
+   {
+     question: `Which keyboard shortcut is used to align selected text or objects to the right in Microsoft Word?`,
+     answer: "Ctrl+R",
+     options: [
+       "Ctrl+Shift+R",
+       "Ctrl+R",
+       "Ctrl+T",
+       "Ctrl+Shift+T"
+     ]
+   },
+   {
+     question: `To close the active document in Word, what is the keyboard shortcut?`,
+     answer: "Ctrl+W",
+     options: [
+       "Ctrl+F4",
+       "Alt+F4",
+       "Alt+W",
+       "Ctrl+W"
+     ]
+   },
 
-  // // Excel
+   // Excel
 
   // {
   //   question: "Which keyboard shortcut is used to create a non-breaking space in Microsoft Word?",
